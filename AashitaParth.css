@@ -23,9 +23,6 @@ h2
 /* Set the font size. */
 p, input, label, #timeLeft {font-size: 25px;}
 
-/* Indent the content. */
-p, textarea, audio, #required, #submit, .section {margin-left: 20px;}
-
 /* Shift the content to the right-hand corner. */
 #timeLeft, #blessing {float: right;}
 
@@ -57,10 +54,11 @@ p, textarea, audio, #required, #submit, .section {margin-left: 20px;}
 
 /* RSVP Form */
 #form {color: #222222;}
-#attending, #teams, #first_name_text, #last_name_text {display: inline;}
+#attending, #teams {display: inline;}
 #submit:hover {background-color: #CCCCCC;}
 input, textarea {border-radius: 5px;}
 input[type="text"], textarea[type="text"] {font-family: 'Dosis', sans-serif;}
+textarea {width: 99%;}
 
 /* Links */
 a:link, a:visited

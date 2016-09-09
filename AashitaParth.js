@@ -119,7 +119,7 @@ function validateForm()
 
 setInterval(determineTimeLeft, 1000);
 
-var music = document.getElementById("sound");
-music.play();
+// var music = document.getElementById("sound");
+// music.play();
 
 openTab(event, "Home");
