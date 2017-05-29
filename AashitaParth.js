@@ -122,4 +122,7 @@ setInterval(determineTimeLeft, 1000);
 // var music = document.getElementById("sound");
 // music.play();
 
+// var video = document.getElementById("video");
+// video.mute();
+
 openTab(event, "Home");
