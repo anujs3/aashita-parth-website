@@ -122,7 +122,11 @@ setInterval(determineTimeLeft, 1000);
 // var music = document.getElementById("sound");
 // music.play();
 
-// var video = document.getElementById("video");
-// video.mute();
+var video = document.getElementById("video");
+video.addEventListener("onclick", function()
+{
+	var vimeo_player = document.getElementById("vimeo_player");
+	vimeo_player.src = "https://player.vimeo.com/video/217879422?autoplay=1";
+});
 
 openTab(event, "Home");
