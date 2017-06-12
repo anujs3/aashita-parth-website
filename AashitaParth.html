@@ -17,7 +17,7 @@
 	
 	<body background = "pattern.jpg">
 	
-	    <b><p id = "timeLeft"></p></b>
+	    <div id = "timeLeft"><b><p id = "timeText"></p></b></div>
 		<br><br><br><br>
 		
 		<b><p id = "blessing">Om Shri Ganeshaya Namaha</p></b>
@@ -29,7 +29,7 @@
 		<br><br><br><br>
 		
 		<ul class = "tab">
-		  <li><a href = "#Home" class = "tablinks" onclick = "openTab(event, 'Home')">Home</a></li>
+		  <li><a href = "#Home" class = "tablinks active" onclick = "openTab(event, 'Home')">Home</a></li>
 		  <li><a href = "#WhenParthMetAashita" class = "tablinks" onclick = "openTab(event, 'When Parth Met Aashita')">When Parth Met Aashita</a></li>
 		  <li><a href = "#Accommodation" class = "tablinks" onclick = "openTab(event, 'Accommodation')">Accommodation</a></li>
 		  <li><a href = "#Events" class = "tablinks" onclick = "openTab(event, 'Events')">Events</a></li>
@@ -37,7 +37,7 @@
 		  <!--<li><a href = "#RSVP" class = "tablinks" onclick = "openTab(event, 'RSVP')">RSVP</a></li>-->
 		</ul>
 		
-		<div id = "Home" class = "tabcontent">
+		<div id = "Home" style = "display: block;" class = "tabcontent">
 			<br>
 			<!--<center><img class = "img-responsive img-thumbnail" id = "main_pic" src = "AashiParth.jpg"/></center>-->
 			<div id = "video" class = "h_iframe">

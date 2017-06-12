@@ -29,7 +29,7 @@ function determineTimeLeft()
 		if (time <= 0)
 		{
 			// gold = #CFB53B
-			document.getElementById("timeLeft").innerHTML = "000" + " : " + "00" + " : " + "00" + " : " + "00";
+			document.getElementById("timeText").innerHTML = "000" + " : " + "00" + " : " + "00" + " : " + "00";
 			return;
 		}
 
@@ -65,7 +65,7 @@ function determineTimeLeft()
 			seconds = "0" + seconds;
 		}
 
-		document.getElementById("timeLeft").innerHTML = days + " : " + hours + " : " + minutes + " : " + seconds;
+		document.getElementById("timeText").innerHTML = days + " : " + hours + " : " + minutes + " : " + seconds;
 }
 
 function validateForm()
