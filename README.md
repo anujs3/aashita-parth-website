@@ -15,7 +15,7 @@ My sister, Aashita Shah, is getting married! Learn more about it on the official
 - Photos
   - View photos of Aashita and Parth, from when they were born to present day.
   
-### Hastags: Use These on Social Media
+### Hashtags: Use These on Social Media
 - #WhenParthMetAashi
 - #Aashiqui3
 - #FromLoveToShahdi
